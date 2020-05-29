@@ -3,7 +3,7 @@
 // }
 
 import axios from 'axios'
-// axios.defaults.baseURL = 'http://192.168.199.237:8080'
+axios.defaults.baseURL = 'https://slowly02.github.io/book/public'
 
 // export const addFn = ({commit},options) => {
 //     setTimeout(() => {
