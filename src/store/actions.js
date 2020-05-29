@@ -3,7 +3,7 @@
 // }
 
 import axios from 'axios'
-// axios.defaults.baseURL = 'https://www.easy-mock.com/mock/5bf0ee68643497494c87d289'
+// axios.defaults.baseURL = 'http://localhost:8080/img'
 
 // export const addFn = ({commit},options) => {
 //     setTimeout(() => {
@@ -23,11 +23,11 @@ import axios from 'axios'
 // }
 
 export const getHomeList = () => {
-    return axios.get('http://localhost:8080/img/data.json')
+    return axios.get('/img/data.json')
 }
 
 export const getListData = ({commit})=>{
-    axios.get('http://localhost:8080/img/dat.json').then((data)=>{
+    axios.get('/img/dat.json').then((data)=>{
         commit('changeList',data.data);// 触发mutations中的函数
     })
 }
