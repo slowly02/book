@@ -12,7 +12,7 @@ module.exports = {
         proxy: {
             // 只对本地开发起作用
             "^/api": {
-                target: "http://192.168.199.237:8080", // 我们要转接到的域
+                target: "https://slowly02.github.io/book/public", // 我们要转接到的域
                 ws: true, // 默认true
                 changeOrigin: true, // 是否改变域
                 pathRewrite: {// 路径重写

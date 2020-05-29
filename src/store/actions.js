@@ -3,7 +3,7 @@
 // }
 
 import axios from 'axios'
-// axios.defaults.baseURL = 'http://localhost:8080/img'
+// axios.defaults.baseURL = 'http://192.168.199.237:8080'
 
 // export const addFn = ({commit},options) => {
 //     setTimeout(() => {
